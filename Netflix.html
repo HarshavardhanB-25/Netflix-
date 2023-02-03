@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Entertainment </title>
+    <link rel="icon" href="E:\Website\netflix.png" type="image/icon type">
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,400&display=swap');
+  .navbar-brand
+    {
+    font-family:"Amatic SC";
+    font-weight: 700;
+    font-size: 25px;   
+    }
+    form i {
+    margin-left: -30px;
+    cursor: pointer;
+    }    
+   </style>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+            <a class="navbar-brand" href="https://www.netflix.com/in/">NETFLIX</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="E:\Website\Netflix.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="E:\Website\Netflix-Movies.html">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.netflix.com/signup/planform">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+               New to Netflix? <a href="E:\Website\Netflix registration.html">Register Here!</a>
+              </span>
+              <i class="fa-solid fa-user" id="profile"></i>
+            </div>
+          </nav>         
+<div class="login">
+  <h2> Login </h2>
+  <form>
+    <div class="user">
+      <label name="user" method="post">Username or Email</label><br>
+      <input type="text" name="username" placeholder="Username or Email" required>
+    </div><br>
+    <div class="password">
+      <label>Password</label><br>
+      <input type="password" name="password" placeholder="Your password" required>
+</div>
+  </form><br>
+  <button class="button" onclick="window.location.href='E:\\Website\\Submit.html';">Submit </button></div>
+  </div>
+  <script>
+function validateUID() {
+  var x = document.forms["username"].value;
+  if (x == "" || x == null) {
+    alert("Username or Email ID must be filled out");
+    return false;
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Netflix</title>
+    <link rel="icon" href="E:\Website\netflix.png" type="image/icon type">
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,400&display=swap');
+    body
+    {
+        background-image: url("binge.webp");
+    }
+    .navbar-brand
+    {
+    font-family:"Amatic SC";
+    font-weight: 700;
+    font-size: 25px;   
+    }
+    .regform
+    {
+    border-radius: 12px;
+      
+    }
+    .form
+    {
+      position: absolute;
+      top: 20%;
+      left: 60%;
+      width: 450px;
+      padding: 40px;
+      font-family: "Raleway";
+      border-style:;
+      background: rgba(117, 107, 107, 0.566);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,1);
+      border-radius: 10px;
+      text-align:right;
+    }
+    #color{
+      color: azure;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+        <a class="navbar-brand" href="https://www.netflix.com/in/">NETFLIX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="E:\Website\Netflix.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container"> 
+      <form class="form">
+        <h2 style="color: crimson;">Register</h2>
+        <label id="color">First name:</label>
+        <input type="text" placeholder="Firstname" class="regform"/>
+        <br>
+        <label id="color">Last name:</label>
+        <input type="text" placeholder="Lastname"class="regform"/>
+        <br>
+        <label id="color">Create password: </label>
+        <input type="password" placeholder="Enter Password" class="regform"/><br>
+        <label id="color">Confirm password: </label>
+        <input type="password" placeholder="Confirm Password" class="regform"/>
+        <br>
+        <button class="button" onclick="window.location.href='E:\\Website\\Submit.html';">Submit </button>
+      </form> 
+      </div>
+</body>
+</html>
